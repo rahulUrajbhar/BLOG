@@ -1,0 +1,41 @@
+.login{
+    padding-top: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 50px);
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT14_DyooE5sLLfhRZ1bdGyO8JzN-lITT6T_g&usqp=CAU);
+    background-size: cover;
+    width: 100%;
+}
+.loginPageheader{
+    font-size: 50px;
+    color: rgb(107, 105, 103);
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 25vh;
+    min-width: 50vh;
+}
+.loginForm>label{
+    padding: 10px;
+    font-size: 25px;
+    color: #585555;
+}
+.loginForm>Input{
+padding: 10px;
+border: none;
+font-size: 15px;
+}
+.loginButton{
+    margin-top: 35px;
+    font-size: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}

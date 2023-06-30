@@ -1,0 +1,54 @@
+.write{
+    margin-top: 100px;
+    padding-left: 150px;
+}
+.writeImg{
+    width: 70vw;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.writeForm{
+    position: relative;
+}
+.writeFormGrp{
+    display: flex;
+    align-items: center;
+
+}
+.inutFileIcon{
+    font-size: 20px;
+    color: rgb(61, 100, 133);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.writeInput{
+    font-size: 30px;
+    padding: 15px;
+    width: 70vw;
+    border: none;
+}
+.writeInput:focus{
+    outline: none;
+}
+.writeText{
+    font-size: 20px;
+}
+.writeButton{
+position: absolute;
+top: 20px;
+right: 50px;
+font-size: 18px;
+font-weight: 400;
+padding: 6px 10px;
+border-radius: 5px;
+border: none;
+color: aliceblue;
+background-color: rgb(44, 138, 204);
+cursor: pointer;
+}

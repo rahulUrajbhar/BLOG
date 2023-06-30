@@ -1,0 +1,77 @@
+.setting{
+    margin-top: 50px;
+    display: flex;
+}
+.settingWrapper{
+    flex: 9;
+}
+.settingTitle{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settingUpdateTitle{
+    font-size: 30px;
+    color: rgb(213, 71, 71);
+}
+.settingDeleteTitle{
+    font-size: 16px;
+    color: red;
+    cursor: pointer;
+}
+.profileImg{
+    padding-left: 30px;
+    font-size: 25px;
+}
+.settingPP{
+    display: flex;
+    align-items: center;
+}
+.settingPPImg{
+width: 100px;
+height: 100px;
+object-fit: cover;
+border-radius: 50%;
+padding-top: 15px;
+padding-left: 30px;
+padding-right: 10px;
+}
+.settingPPIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 121, 12);
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: aliceblue;
+}
+.settingInoutfeilds{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    margin-top: 30px;
+    
+}
+.input{
+    font-size: 25px;
+    color: rgb(82, 74, 74);
+    padding: 10px 0px;
+}
+.inputValue{
+    font-size: 17px;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid rgb(99, 92, 92);
+}
+.settingSubmit{
+    width: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: azure;
+    color: rgb(114, 100, 100);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
